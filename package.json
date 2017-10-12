@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint"
+    "pretest": "npm run lint",
+    "test": "jest"
   },
   "repository": "https://github.com/jamieconnolly/postcss-preset",
   "keywords": [
@@ -18,7 +19,10 @@
   "homepage": "https://github.com/jamieconnolly/postcss-preset#readme",
   "devDependencies": {
     "eslint": "^4.8.0",
-    "eslint-plugin-node": "^5.2.0"
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-node": "^5.2.0",
+    "is-plain-obj": "^1.1.0",
+    "jest": "^21.2.0"
   },
   "engines": {
     "node": ">=4"

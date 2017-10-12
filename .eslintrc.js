@@ -3,13 +3,19 @@
 module.exports = {
   root: true,
   env: {
+    'jest/globals': true,
     'node': true,
   },
   extends: [
     'eslint:recommended',
+    'plugin:jest/recommended',
     'plugin:node/recommended',
   ],
+  parserOptions: {
+    sourceType: 'module',
+  },
   plugins: [
+    'jest',
     'node',
   ],
   rules: {
