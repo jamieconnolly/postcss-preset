@@ -4,7 +4,8 @@
   "description": "My own opinionated PostCSS preset",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": "https://github.com/jamieconnolly/postcss-preset",
   "keywords": [
@@ -14,5 +15,12 @@
   "author": "Jamie Connolly (https://github.com/jamieconnolly)",
   "license": "MIT",
   "bugs": "https://github.com/jamieconnolly/postcss-preset/issues",
-  "homepage": "https://github.com/jamieconnolly/postcss-preset#readme"
+  "homepage": "https://github.com/jamieconnolly/postcss-preset#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-plugin-node": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
 }
