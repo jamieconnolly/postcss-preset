@@ -7,9 +7,10 @@ const postcssrc = require('postcss-load-config');
 it('should export an object', () => {
   const config = require('../index');
   expect(isPlainObj(config)).toBe(true);
+  expect(config.plugins).toBeTruthy();
 });
 
-it('should not contain invalid queries', () => {
+it('should not contain invalid syntax', () => {
   return postcssrc({}, '__tests__/fixtures')
     .then((config) => {
       return postcss(config.plugins)
