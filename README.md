@@ -1,8 +1,28 @@
 # postcss-preset
 
-[![Build Status][build-status-image]][build-status-url]
-[![Dependency Status][dependency-status-image]][dependency-status-url]
+[![Build status][build-status-image]][build-status-url]
+[![Dependency status][dependency-status-image]][dependency-status-url]
 [![MIT License][license-image]][license-url]
+
+> My own opinionated PostCSS preset.
+
+## Installation
+
+```
+$ npm install --save-dev @jamieconnolly/postcss-preset
+```
+
+## Usage
+
+To get started, add this to your `.postcssrc.js` file:
+
+```js
+module.exports = require('@jamieconnolly/postcss-preset');
+```
+
+## License
+
+[MIT License][license-url]
 
 [build-status-image]: https://api.travis-ci.org/jamieconnolly/postcss-preset.svg?branch=master
 [build-status-url]: https://travis-ci.org/jamieconnolly/postcss-preset
