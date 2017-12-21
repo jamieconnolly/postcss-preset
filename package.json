@@ -17,6 +17,9 @@
   "license": "MIT",
   "bugs": "https://github.com/jamieconnolly/postcss-preset/issues",
   "homepage": "https://github.com/jamieconnolly/postcss-preset#readme",
+  "dependencies": {
+    "postcss-import": "11.0.0"
+  },
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-plugin-jest": "^21.5.0",
