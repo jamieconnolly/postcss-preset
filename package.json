@@ -18,7 +18,7 @@
   "bugs": "https://github.com/jamieconnolly/postcss-preset/issues",
   "homepage": "https://github.com/jamieconnolly/postcss-preset#readme",
   "dependencies": {
-    "postcss-import": "11.0.0"
+    "postcss-import": "12.0.1"
   },
   "devDependencies": {
     "eslint": "^4.8.0",
