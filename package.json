@@ -26,7 +26,7 @@
     "eslint-plugin-node": "^5.2.0",
     "is-plain-obj": "^1.1.0",
     "jest": "^22.0.0",
-    "postcss": "^6.0.0",
+    "postcss": "^7.0.13",
     "postcss-load-config": "^1.2.0"
   },
   "peerDependencies": {
