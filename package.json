@@ -27,7 +27,7 @@
     "is-plain-obj": "^1.1.0",
     "jest": "^22.0.0",
     "postcss": "^6.0.0",
-    "postcss-load-config": "^1.2.0"
+    "postcss-load-config": "^2.1.0"
   },
   "peerDependencies": {
     "postcss": "^6.0.0"
